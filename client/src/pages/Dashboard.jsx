@@ -31,6 +31,8 @@ import {
   BarChart3,
   Target,
   ChevronRight,
+  PieChart,
+  Receipt,
 } from 'lucide-react';
 import { analyticsService, budgetService, savingsService } from '../services/api';
 import { useAuth } from '../context/AuthContext';

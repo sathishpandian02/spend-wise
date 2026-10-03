@@ -224,8 +224,10 @@ async function getDashboardAnalytics(req, res, next) {
         total_income: totalIncome,
         total_expenses: totalExpenses,
         remaining,
+        balance: remaining,
         savings,
         status, // 'Surplus' or 'Deficit'
+        surplus_or_deficit: status,
         net_difference: netDifference,
         transaction_count: transactionCount,
       },
