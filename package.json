@@ -1,0 +1,13 @@
+{
+  "name": "spendwise",
+  "version": "1.0.0",
+  "description": "SpendWise - Personal Finance Management Web Application",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "start": "npm --prefix server start"
+  },
+  "keywords": ["finance", "expense-tracker", "react", "express", "mysql"],
+  "author": "",
+  "license": "ISC"
+}

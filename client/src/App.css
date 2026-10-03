@@ -1,0 +1,8 @@
+/* SpendWise - App-level Utilities */
+
+/* Sidebar offset for main viewport */
+@media (max-width: 992px) {
+  .main-viewport {
+    margin-left: 0 !important;
+  }
+}
